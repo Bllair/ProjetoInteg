@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './stile/stile.css';
+import Cabeçalho from './component/header';  
+import Rodapé from './component/footer';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/home';  
+import About from './pages/about';
+import NotFound from './pages/notfound';
+import ClassX from './pages/classx';
+import Exp from './pages/exp';
+import Rolld from './pages/rolld';
+import Contador from './pages/contador';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    
+return (
+  <div>
+      <Routes>
+      <Route path="/" element={< Home /> } />
+      <Route path= "/About" element= {< About /> } />
+      <Route path = "/ClassX" element = {< ClassX />} />
+      <Route path = "/Exp" element = {< Exp />} />
+      <Route path = "/Rolld" element = {< Rolld />} />
+      <Route path = "*" element = {< NotFound />} />
+      <Route path = "/Contador" element = {< Contador />} />
+      </Routes> 
+  </div>
+    )
+  }
 
 export default App;

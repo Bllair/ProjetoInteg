@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+.Titulo{
+     color: rgb(255, 255, 255)
+}
+
+/* Cabeçalho da pag*/
+.Cabeçalho{
+    background-color: rgba(98, 8, 241, 0.96);
+     border: 40px;
+       text-align: center;
+        color:rgb(0, 0, 0); 
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*----------------------------------------------*/
+
+/* Rodapé da pag*/
+.Rodapé{
+    color: rgb(0, 0, 0);
+     background-color: rgba(98, 8, 241, 0.96);
+      bottom: 0;
+      position: absolute;
+       width: 100%;
+        text-align: center;
+         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*----------------------------------------------*/
+
+/* Thead da pag*/
+.table{
+  width: 1500x;
+  }
+
+.thead td{
+  background-color: rgba(98, 8, 241, 0.96);
+   color: rgb(0, 0, 0);
+    padding:25px;
+      width: 5%;  
+       border-collapse: collapse;
+       color:rgb(0, 0, 0);
+        text-align: center;
+         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+       
+     
+  }
+td:hover{
+ background-color: rgba(10, 219, 55, 0.932);      
+  }
+/*----------------------------------------------*/
+
+/* Flexibilidade da pag*/
+.flexT{
+ flex: auto;
+ background-color: chartreuse;
+}
+.flexCabeça{
+ flex: auto;
+ background-color: rgba(20, 141, 255, 0.945);
+}
+.flexPés{
+  flex: auto;
+  background-color: rgba(49, 21, 126, 0.945)
+}
+/*----------------------------------------------*/
+
+/* Texto */
+.mapadivs {
+text-align: center;
+background-color: rgb(41, 23, 161);
+font-size: 20px;
+color: aliceblue;
+}
+/*----------------------------------------------*/
+
